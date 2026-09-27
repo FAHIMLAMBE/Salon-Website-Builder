@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Nebula Salon"
+description = "A polished, responsive single-page website for Nebula salon in Kamothe, Panvel, with services, salon story, review trust signals, and contact details."
+version = "1.0.0"
+id = "artifacts/nebula-salon"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21237
+
+[services.development]
+run = "pnpm --filter @workspace/nebula-salon run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/nebula-salon", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/nebula-salon/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21237"
+BASE_PATH = "/"

@@ -1,0 +1,58 @@
+Design and build a complete, polished website for a salon called **Nebula**. Make it responsive, fast, accessible, and ready to run. Use your judgment to create a distinctive visual identity rather than a generic salon template.
+
+## Brand and visual direction
+Create a modern, premium salon feel with a subtle cosmic touch inspired by the name “Nebula.” Use a refined palette such as deep plum or midnight violet, warm ivory, muted rose, and restrained champagne-gold accents. Keep the result elegant and welcoming, not overly dark or glittery.
+
+Choose stylish, readable fonts that suit a beauty brand—perhaps an expressive serif for headings paired with a clean sans-serif for body text. Use generous spacing, strong typography, high-quality salon imagery, and carefully composed layouts. Add tasteful motion: gentle fades and slide-ins on scroll, smooth anchor scrolling, refined hover states, and subtle transitions. Keep animations lightweight, respect reduced-motion preferences, and avoid distracting effects.
+
+## Website content and sections
+Build a complete single-page salon website with:
+
+1. **Header and navigation**
+   - Nebula wordmark/logo treatment
+   - Links to Services, About, Reviews, and Contact
+   - Prominent “Call to Book” button
+   - Mobile-friendly menu
+
+2. **Hero section**
+   - A strong headline about personal style, care, or transformation
+   - Short supporting copy welcoming visitors to Nebula
+   - Primary call-to-action: “Call to Book”
+   - Secondary call-to-action: “Explore Services”
+   - Beautiful salon or hair styling imagery with a polished, editorial feel
+   - A small trust badge showing **4.7 ★ average rating · 332 reviews**
+
+3. **Services**
+   - An attractive, easy-to-scan service grid or cards
+   - Use common salon service categories such as haircuts and styling, hair colour, treatments, and beauty services
+   - Do not invent prices, exact service availability, or treatment details. Use “Contact us for service details and pricing” where needed.
+
+4. **About Nebula**
+   - Brief, warm copy introducing the salon and its focus on helping clients feel confident
+   - Keep claims general; do not invent awards, staff names, or years of experience
+
+5. **Reviews**
+   - Highlight the provided **4.7-star average from 332 reviews**
+   - Use review-style design, but do not fabricate customer quotes or imply specific reviews were supplied
+   - Include a clear link or button to view the salon’s Instagram
+
+6. **Visit and contact**
+   - Display the full address:
+     **Shop No 6, Platinum Liviano, Plot No-58, next to Anna Dhosa, Sector 35, Kamothe, Panvel, Maharashtra 410209**
+   - Make the phone number clickable: **07304642107** using a `tel:` link
+   - Add a directions link using the address in Google Maps
+   - Include the Instagram link:
+     **https://www.instagram.com/nebularedesign?igsh=d2pxNzFqdnh1bnBw&utm_source=qr**
+   - Add an inviting final call-to-action to call the salon
+
+7. **Footer**
+   - Nebula branding, phone, address, Instagram link, and copyright notice
+
+## Functional and technical requirements
+- Make every navigation link and call-to-action work.
+- Use semantic HTML, accessible color contrast, descriptive image alt text, visible keyboard focus states, and properly labeled controls.
+- Ensure the layout works well on mobile, tablet, and desktop.
+- Use suitable, high-quality images. Prefer reliable image URLs or included assets, and avoid broken-image placeholders.
+- Keep the code organized and the site easy to customize.
+- Do not add fake booking forms, opening hours, prices, testimonials, staff details, or business claims.
+- Finish by starting the project and confirming it runs successfully. Briefly explain how to preview and edit the website.
